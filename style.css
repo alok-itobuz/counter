@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+#counter {
+  font-size: 3.5rem;
+  color: blue;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.buttons-container button {
+  padding: 1rem;
+  border: none;
+  font-weight: bold;
+}
+.buttons-container button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
